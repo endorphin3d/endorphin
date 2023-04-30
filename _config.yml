@@ -1,8 +1,30 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Endorphin 3D
+description: The Ender 5 as it should be
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://endorphin3d.com
+logo: "/assets/images/logo-text.png"
+favicon_ico: "/assets/images/logo.svg"
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Repository: https://github.com/endorphin3d/endorphin
+
+color_scheme: endorphin
+
+defaults:
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
+  - scope:
+      path: "assets/vids"
+    values:
+      video: true
+
+callouts:
+  note:
+    title: Note
+    color: blue
+  warning:
+    title: Warning
+    color: red

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:shaper="http://www.shapertools.com/namespaces/shaper" shaper:fusionaddin="version:1.6.10" width="27cm" height="6cm" version="1.1" x="0cm" y="0cm" viewBox="0 0 27 6" xml:space="preserve">
+  <style>
+    .text {
+      font: 0.1cm "Avenir Next";
+      fill: #6884a1;
+      font-weight: 100;
+    }
+  </style>
+
+  <g id="logo" transform="translate(1.1, 0.6)">
+    <g id="belt" transform="translate(-0.1, 0)">
+      <path d="M0.6999373,-2.52684 A0.15,0.15 90 0,1 0.5499373,-2.67684 L0.5499373,-4.3786801 A0.275,0.275 0 0,0 -0.0000628,-4.3786801 L0,-2.32684 -0.0000628,-0.275 A0.275,0.275 180 0,0 0.5499373,-0.275 L0.5499373,-1.97684 A0.15,0.15 180 0,1 0.6999373,-2.12684 L3.3499373,-2.12684 A0.2,0.2 90 0,0 3.3499373,-2.52684 L0.6999373,-2.52684z" transform="matrix(1,0,0,-1,0.0501334,0.0500707)" fill="transparent" stroke="#42bbbb" stroke-width="0.003cm" stroke-linecap="round" stroke-linejoin="round" shaper:cutDepth="0.001" />
+    </g>
+    <g id="top">
+      <path d="M0.7749373,-0.45 L0.7749373,-0.275 A0.5,0.5 0 0,1 0.7214515,-0.05 L3.5500001,-0.05 3.5500001,-0.45 0.7749373,-0.45z" transform="matrix(1,0,0,-1,0.0801334,0.0500707)" fill="transparent" stroke="#42bbbb" stroke-width="0.003cm" stroke-linecap="round" stroke-linejoin="round" shaper:cutDepth="0.001" />
+    </g>
+    <g id="bottom">
+      <path d="M3.5500001,-4.6036801 L0.7214515,-4.6036801 A0.5,0.5 333.2563155 0,1 0.7749373,-4.3786801 L0.7749373,-4.2036801 3.5500001,-4.2036801 3.5500001,-4.6036801z" transform="matrix(1,0,0,-1,0.0501334,0.0500707)" fill="transparent" stroke="#42bbbb" stroke-width="0.003cm" stroke-linecap="round" stroke-linejoin="round" shaper:cutDepth="0.001" />
+    </g>
+  </g>
+  <g id="text`">
+    <text x="5.15" y="5.3" class="text">NDORPHIN</text>
+  </g>
+</svg>
