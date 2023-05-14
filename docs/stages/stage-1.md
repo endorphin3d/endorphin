@@ -22,10 +22,30 @@ permalink: docs/stages/stage-1
 {:toc}
 
 ---
-{: .clear-both }
+
+## Bill Of Materials
+
+#### Bolts
+
+| Size  | Type               | Quantity |
+| :---- | :----------------- | :------- |
+| M3X12 | ISO 4762 / DIN 912 | 4        |
+| M3X25 | ISO 4762 / DIN 912 | 4        |
+
+#### Belt
+
+| Size     | Type     | Quantity | Link                                                                                     |
+| :------- | :------- | :------- | :--------------------------------------------------------------------------------------- |
+| GT2 Belt | 6mm wide | 1        | [Amazon](https://www.amazon.com/Upgrade-Non-Slip-Version-Printer-Printers/dp/B08R93QQ8Z) |
+
+#### Pulleys
+
+| Size                | Type          | Quantity | Link                                                                                  |
+| :------------------ | :------------ | :------- | :------------------------------------------------------------------------------------ |
+| GT2 Toothless Idler | 20-tooth size | 1        | [Amazon](https://www.amazon.com/BIQU-Aluminum-Toothless-Timing-Printer/dp/B01H3F8LUU) |
 
 ![Endorphin stage 1 plating](/assets/images/docs/stages/stage-1/plating.png)
-{: .w-3_5 .h-80 .float-left }
+{: .w-3_5 .h-80 .float-right .ml-4 }
 
 ## Printing
 
