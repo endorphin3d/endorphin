@@ -3,7 +3,7 @@ layout: default
 title: Getting Started
 nav_order: 1
 permalink: docs/getting-started
-has_toc: true
+has_toc: false
 ---
 
 ## Kinematic
@@ -11,7 +11,7 @@ has_toc: true
 The Endorphin uses a slightly different belt setup from the original Ender 5, known as the "Markforged kinematic" or a Hybrid CoreXY. In this setup the X belt moves like a CoreXY but the Y axis remains in its original Ender 5 cartesian style--one of the main reasons why the Endorphin is is so much faster to build than a CoreXY.
 
 ![Belt path](/assets/images/docs/getting-started/belt-path.png)
-{: .w-3_5 }
+{: .max-w-112 }
 
 Now, if you know anything about CoreXY machines you know that unlike cartesian printers, CoreXY printers don't have an "X stepper" or a "Y stepper" because a movement of one stepper affects both belts. In the Markforged kinematic, this is only sometimes true:
 
@@ -20,7 +20,7 @@ Now, if you know anything about CoreXY machines you know that unlike cartesian p
 - BUT when the Y stepper moves the gantry, the length of the X belt on either side of the gantry is affected and the X stepper must also move to compensate
 
 ![Kinematic](/assets/images/docs/getting-started/kinematic.png)
-{: .w-2_5 }
+{: .max-w-96 }
 
 Luckily this kinematic is supported by both Klipper and the stock Marlin firmware (with a small modification).
 
@@ -64,3 +64,7 @@ You'll want to un-comment this line, like so:
 ```
 
 Now you can continue following the Marlin guide exactly as you normally would. Once you've compiled, you can put the new firmware file (usually `firmware.bin`) at the root of your microSD card. Just to be 100% certain the printer will recognize the new firmware, rename the file `firmware-endorphin.bin`. Then with your printer powered off, insert the SD card and power the printer on. Wait a few minutes to ensure the install finishes, then power the printer down and remove the card. Delete `firmware-endorphin.bin` and you're done!
+
+---
+
+[Next →](/docs/stages){: .btn .btn-outline .fs-5 }

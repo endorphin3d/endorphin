@@ -63,3 +63,7 @@ If you're using a direct drive extruder, you can make use of your old extruder s
 In fact, even if you *are* running the original extruder, you can still swap the extruder and X motors without issue. As long as your hotend is able to keep up with the filament feed rate, your extruder stepper doesn't need an enormous amount of torque.
 
 ## Tune Stepper Current
+
+---
+
+[← Back](/docs/stages){: .btn .btn-outline .mr-4 .fs-5 } [Next →](/docs/stages/stage-2){: .btn .btn-outline .fs-5 }
