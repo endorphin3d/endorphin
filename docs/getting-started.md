@@ -6,9 +6,25 @@ permalink: docs/getting-started
 has_toc: true
 ---
 
-## Software
+## Kinematic
 
-You might have noticed from the pictures that the Endorphin uses a slightly different belt setup from the original Ender 5, but it's not exactly a CoreXY either. This is known as the "Markforged kinematic" or a "Hybrid CoreXY" and is the central idea behind the Endorphin which allows us the benefits of a CoreXY with far less modification (more on that later). Luckily this kinematic is supported by both Klipper and the stock Marlin firmware with a small modification.
+The Endorphin uses a slightly different belt setup from the original Ender 5, known as the "Markforged kinematic" or a Hybrid CoreXY. In this setup the X belt moves like a CoreXY but the Y axis remains in its original Ender 5 cartesian style--one of the main reasons why the Endorphin is is so much faster to build than a CoreXY.
+
+![Belt path](/assets/images/docs/getting-started/belt-path.png)
+{: .w-3_5 }
+
+Now, if you know anything about CoreXY machines you know that unlike cartesian printers, CoreXY printers don't have an "X stepper" or a "Y stepper" because a movement of one stepper affects both belts. In the Markforged kinematic, this is only sometimes true:
+
+- The X stepper can move the printhead along the X axis by simply moving its belt
+- The Y stepper is totally independent and only has to worry about moving the gantry linearly along the Y axis
+- BUT when the Y stepper moves the gantry, the length of the X belt on either side of the gantry is affected and the X stepper must also move to compensate
+
+![Kinematic](/assets/images/docs/getting-started/kinematic.png)
+{: .w-2_5 }
+
+Luckily this kinematic is supported by both Klipper and the stock Marlin firmware (with a small modification).
+
+## Software
 
 {: .warning }
 Don't make these configuration changes until *AFTER* you've printed out all the parts for at least stage 1! You need a working printer (or a second printer) to get stage 1 off the ground.
