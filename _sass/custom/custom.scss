@@ -185,3 +185,23 @@
 .clear-right { clear: right; }
 .clear-both { clear: both; }
 .clear-none { clear: none; }
+
+@for $i from 1 through length($spacers) {
+  $size: #{map-get($spacers, sp-#{$i - 1})};
+  $scale: #{$i - 1};
+
+  // .gap-0, .gap-1, .gap-2...
+  .gap-#{$scale} {
+    gap: #{$size};
+  }
+
+  // .gap-x-0, .gap-x-1, .gap-x-2...
+  .gap-x-#{$scale} {
+    column-gap: #{$size};
+  }
+
+  // .gap-y-0, .gap-y-1, .gap-y-2...
+  .gap-y-#{$scale} {
+    row-gap: #{$size};
+  }
+}

@@ -12,7 +12,7 @@ has_toc: false
 {: .fs-5 .fw-300 }
 Endorphin was designed to be progressively upgraded--so you can get started with minimal cost and time, then upgrade at your own pace. Each stage will drop more moving weight, but will also require more materials and printed parts.
 
-> Note: Weight reduction and cost of each stage are listed individually from the stage before it. Grand totals of all the stages are added up in the final row.
+> Note: Weight reduction and cost of each stage are listed separately--rather than cumulatively--to the stage(s) before it. Grand totals of all the stages are added up in the final row.
 {: .fs-4 .fw-300 }
 
 | Stage     | Moving Weight Reduction | Cost             | Print Time |
