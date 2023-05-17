@@ -18,7 +18,7 @@ Endorphin was designed to be progressively upgraded--so you can get started with
 | Stage     | Moving Weight Reduction | Cost             | Print Time |
 | :-------- | :---------------------- | :--------------- | :--------- |
 | 1         | 215g                    | $21              | ~12 hours  |
-| 2         | 270g                    |                  |            |
+| 2         | 270g                    | $38              | ~3 hours   |
 | 3         | 90g[^1]                 |                  |            |
 | **Total** | **575g**                |                  |            |
 

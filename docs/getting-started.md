@@ -7,7 +7,7 @@ has_toc: false
 ---
 
 {% capture preface %}
-The Endorphin uses a slightly different belt setup from the original Ender 5, known as the "Markforged kinematic" or a Hybrid CoreXY. In this setup the X belt moves like a CoreXY but the Y axis remains in its original Ender 5 cartesian style--one of the main reasons why the Endorphin is is so much faster to build than a CoreXY.
+The Endorphin uses a slightly different belt setup from the original Ender 5, known as a "Markforged kinematic" or Hybrid CoreXY. In this setup the X belt moves like a CoreXY but the Y axis remains in its original Ender 5 cartesian setup--one of the main reasons why the Endorphin is is so much faster to build than a CoreXY conversion.
 {% endcapture %}
 {% include docs-preface.html
   title="# Getting Started"
@@ -17,7 +17,7 @@ The Endorphin uses a slightly different belt setup from the original Ender 5, kn
 %}
 
 {% capture kinematic %}
-Now, if you know anything about CoreXY machines you know that unlike cartesian printers, CoreXY printers don't have an "X stepper" or a "Y stepper" because a movement of one stepper affects both belts. In the Markforged kinematic, this is only sometimes true:
+Now, if you know anything about CoreXY machines you know that unlike cartesian printers, CoreXY printers don't have an "X stepper" or a "Y stepper" because a movement of one stepper affects both belts. In the Markforged kinematic, this is only partially the case:
 
 - The X stepper can move the printhead along the X axis by simply moving its belt while the Y belt stays stationary
 - The Y stepper only has to worry about moving the gantry linearly along the Y axis (cartesian style)

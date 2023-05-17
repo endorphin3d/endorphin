@@ -31,7 +31,7 @@ permalink: docs/stages/stage-2
 
 | Part             | Type              | Quantity | Link                                                   |
 | :--------------- | :---------------- | :------- | :----------------------------------------------------- |
-| M3X8 socket head | ISO 4762, DIN 912 | 20       | [Amazon](https://www.amazon.com/gp/product/B08R3GJGWT) |
+| M3x8 socket head | ISO 4762, DIN 912 | 20       | [Amazon](https://www.amazon.com/gp/product/B08R3GJGWT) |
 
 #### T-Nuts
 
