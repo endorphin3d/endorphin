@@ -41,6 +41,36 @@ permalink: docs/stages/stage-2
 
 ---
 
+{% capture printing %}
+Deciding which face to print is somewhat of a tossup for these two pieces, as far as strength goes. Pictured is the print orientation used for testing and the test printer has been going strong for 6 months now with no issues.
+{: .text-justify }
+{% endcapture %}
+{% include docs-step.html
+  heading="## Printing"
+  image="/assets/images/docs/stages/stage-2/plating.png"
+  alt="Endorphin stage 2 plating"
+  content=printing
+%}
+
+{: .note }
+A great help in mounting the rails is an [MGN12 alignment tool](https://www.thingiverse.com/thing:2368837). There are dozens of other options on Thingiverse and Printables. You'll want to print this tool before the next step.
+
+{% capture left %}
+1. Loosen the X and Y belts then slide the Y belts out of the wheel plates. You won't be able to reuse these belts so you can toss them.
+1. Remove the v-slot wheel screws and wheels on the left wheel plate
+1. Remove the two screws on the underside of the plate which attach it to the X gantry and save one of these screws for later
+1. The plate can now be removed from the gantry
+1. Using M3x8 screws and T-nuts, attach an MGN12 rail to the frame (this is where the alignment tool comes in handy)
+1. Attach your new left linear mount (the smaller of the two) to the linear bearing block (the slidey thing) using M3x8 screws
+1. Press the X gantry into the 20mm cutout in the mount then use one of the M5 screws from step 3 to secure mount to the X gantry from the underside
+
+{% endcapture %}
+{% include docs-step.html
+  heading="## Left Side"
+  video="/assets/vids/docs/stage-2/assembly-left-linear-y.mp4"
+  content=left
+%}
+
 ---
 
 [← Back](/docs/stages/stage-1){: .btn .btn-outline .mr-4 .fs-5 } [Next →](/docs/stages/stage-3){: .btn .btn-outline .fs-5 }
