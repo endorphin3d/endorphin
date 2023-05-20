@@ -22,9 +22,9 @@ permalink: docs/stages/stage-3
 
 #### Linear Rails
 
-| Size         | Length | Quantity | Link                                                   |
-| :----------- | :----- | :------- | :----------------------------------------------------- |
-| MGN9H Rail   | 400mm  | 1        | [Amazon](https://www.amazon.com/gp/product/B09XQ7YWPT) |
+| Size       | Length | Quantity | Link                                                   |
+| :--------- | :----- | :------- | :----------------------------------------------------- |
+| MGN9H Rail | 400mm  | 1        | [Amazon](https://www.amazon.com/gp/product/B09XQ7YWPT) |
 
 #### Bolts
 
@@ -42,7 +42,7 @@ permalink: docs/stages/stage-3
 
 ## Vz Printhead
 
-**Usable Print Area:** 220 x 200 (20mm reduction on Y)
+**Usable Print Area:** 220 x 200 (20mm reduction on Y axis)
 
 ### Belt Clips
 
@@ -67,16 +67,31 @@ This is a two-part clip that has more intricate details to print, so make sure t
   content=belts2
 %}
 
-## EVA
+{% capture eva %}
+**Usable Print Area:** 220 x 190 (30mm reduction on Y axis)
 
-**Usable Print Area:** 220 x 190 (30mm reduction on Y)
+The EVA printhead is the standard Ratrig printhead. It has a huge number of official addons including fan ducts, hotends, and extruders as well as [even more](https://www.printables.com/search/models?q=tag:eva3) parts created by the community. The main downside of this printhead is the size causes about 10mm more lost print space on the Y axis than the Vz.
 
-[EVA CoreXY](https://main.eva-3d.page/heat_insert/core/corexy)
+The official EVA v3 design only required two parts to be modified in order to work on the Endorphin, so you can start by reading up on the official [CoreXY printhead](https://main.eva-3d.page/heat_insert/core/corexy) and download most of the parts from this page. Just substitute the following parts for the Endorphin versions in this table:
+
+| Original Part            | Link                                                                                     |
+| :----------------------- | :--------------------------------------------------------------------------------------- |
+| back_core_xy_fi.stl      | [back_endorphin.stl](/assets/stl/docs/stages/stage-3/back_endorphin.stl)                 |
+| core_xy_belt_grabber.stl | [endorphin_belt_grabber.stl](/assets/stl/docs/stages/stage-3/endorphin_belt_grabber.stl) |
+
+You also don't need to print `face_belt_grabber.stl` because the Endorphin doesn't have a belt that attaches to the front of the EVA in the same way that the CoreXY does.
+
+{% endcapture %}
+{% include docs-step.html
+  heading="## EVA"
+  image="/assets/images/docs/stages/stage-3/eva.png"
+  content=eva
+%}
 
 {% capture evabelts %}
 {% endcapture %}
 {% include docs-step.html
-  heading="### EVA Belt"
+  heading="### Belt Assembly"
   video="/assets/vids/docs/stages/stage-3/assembly-endorphin-belts.mp4"
   content=evabelts
 %}
