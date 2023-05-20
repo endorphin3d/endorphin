@@ -1,16 +1,16 @@
+{{ include.heading | markdownify }}
 <div class="d-lg-flex gap-x-4" {% if include.reverse %}style="flex-direction: row-reverse"{% endif %}>
   <div style="flex: 1">
-    {{ include.heading | markdownify }}
     {{ include.content | markdownify }}
   </div>
   {% if include.image %}
-  <div class="mt-8" style="flex: 1">
-    <img src="{{ include.image }}" alt="{{ include.alt }}">
+  <div style="flex: 1">
+    <img src="{{ include.image }}" alt="{{ include.heading }}">
   </div>
   {% endif %}
 
   {% if include.video %}
-  <div class="mt-8" style="flex: 1">
+  <div style="flex: 1">
     <video muted controls loop class="w-full">
       <source src="{{ include.video }}" type="video/mp4">
     </video>

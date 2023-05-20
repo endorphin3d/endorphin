@@ -12,7 +12,6 @@ The Endorphin uses a slightly different belt setup from the original Ender 5, kn
 {% include docs-preface.html
   title="# Getting Started"
   image="/assets/images/docs/getting-started/belt-path.png"
-  alt="Belt path"
   content=preface
 %}
 
@@ -28,7 +27,6 @@ Luckily this kinematic is supported by both Klipper and the stock Marlin firmwar
 {% include docs-step.html
   heading="#### Motion Diagram"
   image="/assets/images/docs/getting-started/kinematic.png"
-  alt="Kinematic"
   content=kinematic
 %}
 

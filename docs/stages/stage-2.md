@@ -13,7 +13,6 @@ permalink: docs/stages/stage-2
 {% include docs-preface.html
   title="# Stage 2: Linear Y Rails"
   image="/assets/images/docs/stages/stage-2/stage-2-render-lg.png"
-  alt="Endorphin stage 2"
   content=preface
 %}
 
@@ -48,12 +47,11 @@ Deciding which face to print is somewhat of a tossup for these two pieces, as fa
 {% include docs-step.html
   heading="## Printing"
   image="/assets/images/docs/stages/stage-2/plating.png"
-  alt="Endorphin stage 2 plating"
   content=printing
 %}
 
 {: .note }
-A great help in mounting the rails is an [MGN12 alignment tool](https://www.thingiverse.com/thing:2368837). There are dozens of other options on Thingiverse and Printables. You'll want to print this tool before the next step.
+A great help in mounting the rails is an [MGN12 alignment tool](https://www.thingiverse.com/thing:2368837). There are dozens of other options on Thingiverse and Printables. You'll want to print this tool before beginning the next step.
 
 {% capture left %}
 1. Loosen the X and Y belts then slide the Y belts out of the wheel plates. You won't be able to reuse these belts so you can toss them.
@@ -67,7 +65,7 @@ A great help in mounting the rails is an [MGN12 alignment tool](https://www.thin
 {% endcapture %}
 {% include docs-step.html
   heading="## Left Side"
-  video="/assets/vids/docs/stage-2/assembly-left-linear-y.mp4"
+  video="/assets/vids/docs/stages/stage-2/assembly-left-linear-y.mp4"
   content=left
 %}
 

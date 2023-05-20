@@ -13,7 +13,6 @@ permalink: docs/stages/stage-1
 {% include docs-preface.html
   title="# Stage 1: Hybrid CoreXY"
   image="/assets/images/docs/stages/stage-1/stage-1-render-lg.png"
-  alt="Endorphin stage 1"
   content=preface
 %}
 
@@ -65,7 +64,6 @@ You should use **100% infill** for these parts and at least **4 perimeters/walls
 {% include docs-step.html
   heading="## Printing"
   image="/assets/images/docs/stages/stage-1/plating.png"
-  alt="Endorphin stage 1 plating"
   content=printing
 %}
 
@@ -76,7 +74,7 @@ You should use **100% infill** for these parts and at least **4 perimeters/walls
 {% endcapture %}
 {% include docs-step.html
   heading="## Front Corner Assembly"
-  video="/assets/vids/docs/stage-1/assembly-front-corner.mp4"
+  video="/assets/vids/docs/stages/stage-1/assembly-front-corner.mp4"
   content=fca
 %}
 
@@ -94,7 +92,7 @@ Next you'll install the right Y belt tensioner and the X belt's front pulley. If
 {% endcapture %}
 {% include docs-step.html
   heading="## Front Pulleys"
-  video="/assets/vids/docs/stage-1/assembly-driven-pulleys.mp4"
+  video="/assets/vids/docs/stages/stage-1/assembly-driven-pulleys.mp4"
   content=pulleys
 %}
 
@@ -106,7 +104,7 @@ Next you'll install the right Y belt tensioner and the X belt's front pulley. If
 {% endcapture %}
 {% include docs-step.html
   heading="## Move The X Stepper"
-  video="/assets/vids/docs/stage-1/assembly-driving-mount.mp4"
+  video="/assets/vids/docs/stages/stage-1/assembly-driving-mount.mp4"
   content=x-stepper
 %}
 
@@ -139,7 +137,7 @@ These two center idlers are the reason we're using ones with a 3mm bore througho
 {% endcapture %}
 {% include docs-step.html
   heading="## Center Idlers"
-  video="/assets/vids/docs/stage-1/assembly-center-idlers.mp4"
+  video="/assets/vids/docs/stages/stage-1/assembly-center-idlers.mp4"
   content=center-idlers
 %}
 
