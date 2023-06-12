@@ -4,7 +4,7 @@ theme: just-the-docs
 
 url: https://endorphin3d.com
 logo: "/assets/images/logo-text.png"
-favicon_ico: "/assets/images/logo.svg"
+favicon_ico: "/assets/images/favicon.ico"
 
 aux_links:
   Repository: https://github.com/endorphin3d/endorphin

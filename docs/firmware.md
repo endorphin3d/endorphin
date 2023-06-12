@@ -1,39 +1,20 @@
 ---
 layout: default
-title: Getting Started
-nav_order: 1
-permalink: docs/getting-started
+title: Firmware
+nav_order: 3
+permalink: docs/firmware
 has_toc: false
 ---
 
-{% capture preface %}
-The Endorphin uses a slightly different belt setup from the original Ender 5, known as a "Markforged kinematic" or Hybrid CoreXY. In this setup the X belt moves like a CoreXY but the Y axis remains in its original Ender 5 cartesian setup--one of the main reasons why the Endorphin is is so much faster to build than a CoreXY conversion.
-{% endcapture %}
-{% include docs-preface.html
-  title="# Getting Started"
-  image="/assets/images/docs/getting-started/belt-path.png"
-  content=preface
-%}
-
-{% capture kinematic %}
-Now, if you know anything about CoreXY machines you know that unlike cartesian printers, CoreXY printers don't have an "X stepper" or a "Y stepper" because a movement of one stepper affects both belts. In the Markforged kinematic, this is only partially the case:
-
-- The X stepper can move the printhead along the X axis by simply moving its belt while the Y belt stays stationary
-- The Y stepper only has to worry about moving the gantry linearly along the Y axis (cartesian style)
-- BUT when the Y stepper moves the gantry, the length of the X belt on either side of the gantry is affected and thus the X stepper must also move to compensate
-
-Luckily this kinematic is supported by both Klipper and the stock Marlin firmware (with a small modification).
-{% endcapture %}
-{% include docs-step.html
-  heading="#### Motion Diagram"
-  image="/assets/images/docs/getting-started/kinematic.png"
-  content=kinematic
-%}
-
-## Software
+# Firmware
 
 {: .warning }
-Don't make these configuration changes until *AFTER* you've printed out all the parts for at least stage 1! You need a working printer (or a second printer) to get stage 1 off the ground.
+Don't make these changes until *AFTER* you've printed out all the parts for at least stage 1! You need a working printer (or a second printer) to get stage 1 off the ground.
+
+- TOC
+{:toc}
+
+---
 
 ### Klipper
 
@@ -73,4 +54,4 @@ Now you can continue following the Marlin guide on compiling the new firmware. O
 
 ---
 
-[Next →](/docs/stages){: .btn .btn-outline .fs-5 }
+[← Back](/docs/stages/stage-3){: .btn .btn-outline .mr-4 .fs-5 }

@@ -22,9 +22,9 @@ permalink: docs/stages/stage-2
 
 #### Linear Rails
 
-| Size         | Length | Quantity | Link                                                   |
-| :----------- | :----- | :------- | :----------------------------------------------------- |
-| MGN12H Rails | 300mm  | 2        | [Amazon](https://www.amazon.com/gp/product/B09QPCTYDM) |
+| Size         | Length | Quantity | Link                                                                                                                                                                                      |
+| :----------- | :----- | :------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| MGN12H Rails | 300mm  | 2        | [Amazon](https://www.amazon.com/gp/product/B09QPCTYDM), [Fabreeko](https://www.fabreeko.com/collections/honeybadger/products/honeybadger-mgn12h-black-steel-rails?variant=43180991545599) |
 
 #### Bolts
 

@@ -3,17 +3,14 @@
   <div style="flex: 1">
     {{ include.content | markdownify }}
   </div>
+  <div style="flex: 1">
   {% if include.image %}
-  <div style="flex: 1">
     <img src="{{ include.image }}" alt="{{ include.heading }}">
-  </div>
   {% endif %}
-
   {% if include.video %}
-  <div style="flex: 1">
     <video muted controls loop class="w-full">
       <source src="{{ include.video }}" type="video/mp4">
     </video>
-  </div>
   {% endif %}
+  </div>
 </div>
