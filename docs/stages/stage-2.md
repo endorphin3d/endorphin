@@ -22,9 +22,9 @@ permalink: docs/stages/stage-2
 
 #### Linear Rails
 
-| Size         | Length | Quantity | Link                                                                                                                                                                                      |
-| :----------- | :----- | :------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| MGN12H Rails | 300mm  | 2        | [Amazon](https://www.amazon.com/gp/product/B09QPCTYDM), [Fabreeko](https://www.fabreeko.com/collections/honeybadger/products/honeybadger-mgn12h-black-steel-rails?variant=43180991545599) |
+| Size              | Length | Quantity | Link                                                                                                                                                                                      |
+| :---------------- | :----- | :------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| MGN12H Rail+Block | 300mm  | 2        | [Amazon](https://www.amazon.com/gp/product/B09QPCTYDM), [Fabreeko](https://www.fabreeko.com/collections/honeybadger/products/honeybadger-mgn12h-black-steel-rails?variant=43180991545599) |
 
 #### Bolts
 
@@ -51,7 +51,7 @@ Deciding which face to print is somewhat of a tossup for these two pieces, as fa
 %}
 
 {: .note }
-A great help in mounting the rails is an [MGN12 alignment tool](https://www.thingiverse.com/thing:2368837). There are dozens of other options on Thingiverse and Printables. You'll want to print this tool before beginning the next step.
+A great help in mounting the rails is a [rail alignment tool](https://www.thingiverse.com/thing:3533580). There are several other similar alignment tools on Thingiverse and Printables if you don't like this one. You'll want to print this tool before beginning the next step.
 
 {% capture left %}
 1. Loosen the X and Y belts then slide the Y belts out of the wheel plates. You won't be able to reuse these belts so you can toss them.
@@ -61,10 +61,12 @@ A great help in mounting the rails is an [MGN12 alignment tool](https://www.thin
 1. Using M3x8 screws and T-nuts, attach an MGN12 rail to the frame (this is where the alignment tool comes in handy)
 1. Attach your new left linear mount (the smaller of the two) to the linear bearing block (the slidey thing) using M3x8 screws
 1. Press the X gantry into the 20mm cutout in the mount then use one of the M5 screws from step 3 to secure mount to the X gantry from the underside
+1. Fish one end of the Y belt through from the top of the new rail mount, then out the bottom and back in the direction it orginated
+1. Secure the belt against its own teeth using a zip tie or [belt clip](/assets/stl/docs/stages/stage-3/belt_clip-touthed.stl) designed by the [VzBot team](https://github.com/VzBoT3D/Vz-Printhead-Printed).
 
 {% endcapture %}
 {% include docs-step.html
-  heading="## Left Side"
+  heading="## Left Rail"
   video="/assets/vids/docs/stages/stage-2/assembly-left-linear-y.mp4"
   content=left
 %}

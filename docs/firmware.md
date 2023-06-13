@@ -26,7 +26,7 @@ kinematics: hybrid_corexy
 ...
 ```
 
-Now save and restart and you're done. Seriously, you're done. You can skip on to the [next page](/docs/stages) now.
+Now save and restart and you're done. Seriously, you're done.
 
 ### Marlin (Original Firmware)
 

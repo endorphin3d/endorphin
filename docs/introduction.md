@@ -32,6 +32,8 @@ Now, if you know anything about CoreXY machines you know that unlike cartesian p
 - The Y stepper only has to worry about moving the gantry linearly along the Y axis (cartesian style)
 - BUT when the Y stepper moves the gantry, the length of the X belt on either side of the gantry is affected and thus the X stepper must also move to compensate
 
+### Firmware
+
 Luckily this kinematic is supported by both Klipper and the stock Marlin firmware (with a small modification). After you've printed the parts for at least stage 1, just follow the instructions in the [firmware section](/docs/firmware) to use the new kinematic.
 {% endcapture %}
 {% include docs-step.html

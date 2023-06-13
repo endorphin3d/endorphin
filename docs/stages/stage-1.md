@@ -127,7 +127,7 @@ Optional
 If you find that your X stepper motor is getting hot during long prints, you can turn your stepper current down a bit. Just follow [this guide](https://all3dp.com/2/vref-calculator-tmc2209-tmc2208-a4988) which should only take a few minutes to complete.
 
 {% capture center-idlers %}
-These two center idlers are the reason we're using ones with a 3mm bore throughout the project rather than the more common 5mm ones. Because we're making use of two of the stepper mounting holes on the original X stepper plate to hold the axles for the idlers. These holes are only large enough to use M3 screws as axles, hence the 3mm bore pulleys.
+These two center idlers are the reason we're using ones with a 3mm bore throughout the project rather than the more common 5mm bore. Because we're making use of two of the stepper mounting holes on the original X stepper plate to hold the axles for the idlers. These holes are only large enough to use M3 screws as axles, hence the 3mm bore pulleys.
 
 1. Remove the old X belt if you haven't already
 1. Place the bottom center-idler plate on top of the carriage (the bottom plate is the one without the hexagon holes)
