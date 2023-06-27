@@ -62,7 +62,7 @@ A great help in mounting the rails is a [rail alignment tool](https://www.thingi
 1. Attach your new left linear mount (the smaller of the two) to the linear bearing block (the slidey thing) using M3x8 screws
 1. Press the X gantry into the 20mm cutout in the mount then use one of the M5 screws from step 3 to secure mount to the X gantry from the underside
 1. Fish one end of the Y belt through from the top of the new rail mount, then out the bottom and back in the direction it orginated
-1. Secure the belt against its own teeth using a zip tie or [belt clip](/assets/stl/docs/stages/stage-3/belt_clip-touthed.stl) designed by the [VzBot team](https://github.com/VzBoT3D/Vz-Printhead-Printed).
+1. Secure the belt against its own teeth using a zip tie or [belt clip](https://raw.githubusercontent.com/endorphin3d/endorphin/main/STLs/stage-3/belt_clip-touthed.stl) designed by the [VzBot team](https://github.com/VzBoT3D/Vz-Printhead-Printed).
 
 {% endcapture %}
 {% include docs-step.html

@@ -54,9 +54,9 @@ The official design only required three parts to be modified in order to work on
 
 | Original Part                   | Endorphin Part                                                             |
 | :------------------------------ | :------------------------------------------------------------------------- |
-| Back plate round standoff.stl   | [vz-back_plate.stl](/assets/stl/docs/stages/stage-3/vz-back_plate.stl)     |
-| Bottom plate round standoff.stl | [vz-bottom_plate.stl](/assets/stl/docs/stages/stage-3/vz-bottom_plate.stl) |
-| Front round standoff.stl        | [vz-front.stl](/assets/stl/docs/stages/stage-3/vz-front.stl)               |
+| Back plate round standoff.stl   | [vz-back_plate.stl](https://raw.githubusercontent.com/endorphin3d/endorphin/main/STLs/stage-3/vz-back_plate.stl)     |
+| Bottom plate round standoff.stl | [vz-bottom_plate.stl](https://raw.githubusercontent.com/endorphin3d/endorphin/main/STLs/stage-3/vz-bottom_plate.stl) |
+| Front round standoff.stl        | [vz-front.stl](https://raw.githubusercontent.com/endorphin3d/endorphin/main/STLs/stage-3/vz-front.stl)               |
 
 {: .note }
 Make sure you print the MGN9**H** version of the carriage top (assuming you bought your rails from the links above) rather than the MGN9**C** version.
@@ -99,9 +99,9 @@ The official EVA v3 design only required three parts to be modified in order to 
 
 | Original Part            | Endorphin Part                                                                                   |
 | :----------------------- | :----------------------------------------------------------------------------------------------- |
-| back_core_xy_fi.stl      | [eva-back_endorphin.stl](/assets/stl/docs/stages/stage-3/eva-back_endorphin.stl)                 |
-| core_xy_belt_grabber.stl | [eva-endorphin_belt_grabber.stl](/assets/stl/docs/stages/stage-3/eva-endorphin_belt_grabber.stl) |
-| top_endstop_mgn12c_fi    | [eva-eva-mgn9h.stl](/assets/stl/docs/stages/stage-3/eva-mgn9h.stl)                               |
+| back_core_xy_fi.stl      | [eva-back_endorphin.stl](https://raw.githubusercontent.com/endorphin3d/endorphin/main/STLs/stage-3/eva-back_endorphin.stl)                 |
+| core_xy_belt_grabber.stl | [eva-endorphin_belt_grabber.stl](https://raw.githubusercontent.com/endorphin3d/endorphin/main/STLs/stage-3/eva-endorphin_belt_grabber.stl) |
+| top_endstop_mgn12c_fi    | [eva-eva-mgn9h.stl](https://raw.githubusercontent.com/endorphin3d/endorphin/main/STLs/stage-3/eva-mgn9h.stl)                               |
 
 You also don't need to print `face_belt_grabber.stl` because the Endorphin doesn't have a belt that attaches to the front of the EVA in the same way that a CoreXY does.
 
