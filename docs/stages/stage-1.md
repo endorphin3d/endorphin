@@ -130,10 +130,10 @@ If you find that your X stepper motor is getting hot during long prints, you can
 These two center idlers are the reason we're using ones with a 3mm bore throughout the project rather than the more common 5mm bore. Because we're making use of two of the stepper mounting holes on the original X stepper plate to hold the axles for the idlers. These holes are only large enough to use M3 screws as axles, hence the 3mm bore pulleys.
 
 1. Remove the old X belt if you haven't already
-1. Place the bottom center-idler plate on top of the carriage (the bottom plate is the one without the hexagon holes)
-1. Sandwich two pulleys between washers and set on top of the idler plate
-1. Insert two M3 hex nuts into the top idler plate and place on top of the pulleys
-1. Drive two M3x25 screws from the underside, passing through the holes original steel plate and then through our stack of new parts, finally threading into the hex nuts in the top center-idler plate
+1. Place the bottom center idler block on top of the carriage (the bottom plate is the one without the hexagon holes)
+1. Sandwich two pulleys between washers and set them on top of the idler block
+1. Insert two M3 hex nuts into the top idler block and place on top of the pulleys
+1. Drive two M3x25 screws from the underside, passing through the holes original steel plate and then through our stack of new parts, finally threading into the hex nuts in the top center idler block
 {% endcapture %}
 {% include docs-step.html
   heading="## Center Idlers"

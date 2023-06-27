@@ -9,7 +9,9 @@ has_toc: false
 {% capture preface %}
 In the last few years 3D printers have become blisteringly fast, pushing the limits of both heating and cooling while leaving those of us with printers like the Ender 5 feeling a bit left out of the fun. That ends now. Your Ender 5 is capable of being every bit as fast as a Voron without the hefty price tag. There have been [other](https://zerog.one) CoreXY [projects](https://www.printables.com/model/169131-ender-5-core-xy-with-linear-rails-mk3) to do a full conversion on the Ender 5, but often the price of parts or the complexity of the build makes it hard to justify over just buying something pre-built like a Bambulab P1P.
 
-**The Endorphin is different.** With a build you can do in an afternoon and parts that total less than $25, you no longer have any excuses *not* to turn Ender 5 into a speed demon. The difference is in the kinematic design.
+**The Endorphin is different.**
+
+With a first-stage build you can do in an afternoon with parts that total less than $25, you no longer have any excuses *not* to turn Ender 5 into a speed demon.
 {% endcapture %}
 {% include docs-preface.html
   title="# Introduction"

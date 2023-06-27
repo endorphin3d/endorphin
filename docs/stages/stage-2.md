@@ -58,7 +58,7 @@ A great help in mounting the rails is a [rail alignment tool](https://www.thingi
 1. Remove the v-slot wheel screws and wheels on the left wheel plate
 1. Remove the two screws on the underside of the plate which attach it to the X gantry and save one of these screws for later
 1. The plate can now be removed from the gantry
-1. Using M3x8 screws and T-nuts, attach an MGN12 rail to the frame (this is where the alignment tool comes in handy)
+1. Using M3x8 screws and T-nuts, secure the MGN12 rail to the **outside** of the frame (this is where the alignment tool comes in handy)
 1. Attach your new left linear mount (the smaller of the two) to the linear bearing block (the slidey thing) using M3x8 screws
 1. Press the X gantry into the 20mm cutout in the mount then use one of the M5 screws from step 3 to secure mount to the X gantry from the underside
 1. Fish one end of the Y belt through from the top of the new rail mount, then out the bottom and back in the direction it orginated
@@ -69,6 +69,25 @@ A great help in mounting the rails is a [rail alignment tool](https://www.thingi
   heading="## Left Rail"
   video="/assets/vids/docs/stages/stage-2/assembly-left-linear-y.mp4"
   content=left
+%}
+
+{% capture right %}
+1. Remove the v-slot wheel screws and wheels on the right wheel plate
+1. Remove the two screws on the underside of the plate which attach it to the X gantry and save one of these screws for later
+1. The plate can now be removed from the gantry
+1. Remove the center idlers and the sandwich blocks. You won't be needing the bottom block but the top one will be reused.
+1. Using M3x8 screws and T-nuts, attach the MGN12 rail to the **inside** of the frame (this is where the alignment tool comes in handy)
+1. Attach your new right linear mount to the linear bearing block using M3x8 screws
+1. Press the X gantry into the 20mm cutout in the mount then use one of the M5 screws from step 2 to secure mount to the X gantry from the underside
+1. Reattach the center idlers as the were before, minus the bottom block. **Don't forget the M3 washers on both sides of the pulleys!**
+1. Fish one end of the Y belt through from the top of the new rail mount, then out the bottom and back in the direction it orginated
+1. Secure the belt against its own teeth using a zip tie or belt clip
+
+{% endcapture %}
+{% include docs-step.html
+  heading="## Right Rail"
+  video="/assets/vids/docs/stages/stage-2/assembly-right-linear-y.mp4"
+  content=right
 %}
 
 ---
