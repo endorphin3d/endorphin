@@ -56,6 +56,8 @@ permalink: docs/stages/stage-1
 ---
 
 {% capture printing %}
+**STL files for this stage are** [here](https://github.com/endorphin3d/endorphin/tree/main/STLs/stage-1)
+
 It should be easy to guess the print orientation for most of these parts. The only difficult one is the oddly-shaped front corner assembly. There's one particularly flat face on the part that has no fillets on the corners; this is the face that was designed to be on the print bed.
 
 You should use **100% infill** for these parts and at least **4 perimeters/walls** (for screw hole durability). Parts printed with 0.2mm layer height look fantastic but 0.24mm is several hours faster.

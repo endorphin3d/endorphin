@@ -41,6 +41,8 @@ permalink: docs/stages/stage-2
 ---
 
 {% capture printing %}
+**STL files for this stage are** [here](https://github.com/endorphin3d/endorphin/tree/main/STLs/stage-2)
+
 Deciding which face to print is somewhat of a tossup for these two pieces, as far as strength goes. Pictured is the print orientation used for testing and the test printer has been going strong for 6 months now with no issues.
 {: .text-justify }
 {% endcapture %}
