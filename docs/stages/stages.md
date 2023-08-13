@@ -26,4 +26,4 @@ Endorphin was designed to be progressively upgraded--so you can get started with
 
 [← Back](/docs/getting-started){: .btn .btn-outline .mr-4 .fs-5 } [Next →](/docs/stages/stage-1){: .btn .btn-outline .fs-5 }
 
-[^1]: Because stage 3 adds a linear rail to the X axis, the weight of the new rail does negate the weight saved by dropping the v-slot printhead carriage.
+[^1]: Because stage 3 adds a linear rail to the X axis, the weight of the new rail does negate the weight saved by dropping the v-slot printhead carriage, but in the Hybrid CoreXY configuration the weight will now be shared between the two stepper motors.

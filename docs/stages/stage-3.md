@@ -7,7 +7,7 @@ permalink: docs/stages/stage-3
 ---
 
 {% capture preface %}
-> The purpose of this stage is to add a linear rail on the X axis. We'll basically be trading the weight from the original steel printhead carriage and its wheels for an MGN9 rail of similar weight. Thus, the benefits of this stage aren't as much weight removal as the ability to use a modern printhead such as the Ratrig EVA or the Vz Printhead, plus complete liberation from those frustrating v-slot wheels.
+> The purpose of this stage is to add a linear rail on the X axis. We'll basically be trading the weight from the original steel printhead carriage and its wheels for an MGN9 rail of similar weight (on the plus side, in the Hybrid CoreXY configuration the weight will now be shared between the two stepper motors). Thus, the benefits of this stage aren't as much weight removal as the ability to use a modern printhead such as the Ratrig EVA or the Vz Printhead, plus complete liberation from those frustrating v-slot wheels.
 {: .fs-5 .fw-300 .text-grey-dk-100 .text-justify }
 {% endcapture %}
 {% include docs-preface.html
