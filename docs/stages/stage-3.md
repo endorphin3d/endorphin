@@ -24,10 +24,7 @@ permalink: docs/stages/stage-3
 
 | Size             | Length | Quantity | Link                                                                                                                                                                                     |
 | :--------------- | :----- | :------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| MGN9H Rail+Block | 400mm  | 1        | [Amazon](https://www.amazon.com/gp/product/B09XQ7YWPT), [Fabreeko](https://www.fabreeko.com/collections/honeybadger/products/honeybadger-mgn9h-black-steel-rails?variant=43180948685055) |
-
-{: .note }
-You actually only need a 350mm MGN9 rail, but if you want to upgrade to stage 4 (coming soon) in which we'll be dropping the entire 2020 extrusion on the gantry, you'll want 400mm. It's up to you.
+| MGN9H Rail+Block | 350mm  | 1        | [Amazon](https://www.amazon.com/gp/product/B09XQ53J42), [Fabreeko](https://www.fabreeko.com/collections/honeybadger/products/honeybadger-mgn9h-black-steel-rails?variant=43180948652287) |
 
 #### Bolts
 
