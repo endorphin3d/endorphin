@@ -51,7 +51,7 @@ permalink: docs/stages/stage-1
 
 | Part                | Size                        | Quantity | Link                                                                                  |
 | :------------------ | :-------------------------- | :------- | :------------------------------------------------------------------------------------ |
-| GT2 toothless idler | 3mm bore, 20-tooth diameter | 5        | [Amazon](https://www.amazon.com/BIQU-Aluminum-Toothless-Timing-Printer/dp/B01H3F8LUU) |
+| GT2 toothless idler | 3mm bore, 20-tooth diameter | 5        | [Amazon](https://www.amazon.com/BZ-3D-Aluminum-Printer-Toothless/dp/B08726CGYJ) |
 
 ---
 
