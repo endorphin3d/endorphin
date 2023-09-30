@@ -26,6 +26,23 @@ kinematics: hybrid_corexy
 ...
 ```
 
+Then change your endstop settings under `stepper_x` and `stepper_y` so the printer homes in the right direction:
+
+```yml
+[stepper_x]
+...
+position_endstop: 220
+position_max: 220
+...
+
+[stepper_y]
+...
+# Note: These may need to be 190 if using the EVA printhead
+position_endstop: 200
+position_max: 200
+...
+```
+
 Now save and restart and you're done. Seriously, you're done.
 
 ### Marlin (Original Firmware)
