@@ -67,6 +67,22 @@ You'll want to un-comment this line, like so:
 #define MARKFORGED_XY
 ```
 
+Then just below it you'll see:
+
+```c
+#if ANY(MARKFORGED_XY, MARKFORGED_YX)
+  //#define MARKFORGED_INVERSE  // Enable for an inverted Markforged kinematics belt path
+#endif
+```
+
+Uncomment that middle line, so it looks like this:
+
+```c
+#if ANY(MARKFORGED_XY, MARKFORGED_YX)
+  #define MARKFORGED_INVERSE  // Enable for an inverted Markforged kinematics belt path
+#endif
+```
+
 Now you can continue following the Marlin guide on compiling the new firmware. Once you've compiled, you can put the new firmware file (usually `firmware.bin`) at the root of your microSD card. Just to be 100% certain the printer will recognize the new firmware, rename the file to `firmware-endorphin.bin`. Then with your printer powered off, insert the SD card and power the printer on. Wait a few minutes to ensure the install finishes, then power the printer down and remove the card. Delete `firmware-endorphin.bin` and you're done!
 
 ---
