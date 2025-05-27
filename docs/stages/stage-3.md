@@ -49,8 +49,8 @@ The only drawback with this printhead is that you may not already have the [30mm
 
 The official design only required three parts to be modified in order to work on the Endorphin. So start by downloading the official STLs from [here](https://github.com/VzBoT3D/Vz-Printhead-Printed/tree/main/STLs) and you can find the BOM [here](https://github.com/VzBoT3D/Vz-Printhead-Printed/tree/main/BOM). Then before you start printing parts, check the table below and substitute any of the original parts listed below with the Endorphin part:
 
-| Original Part                   | Endorphin Part                                                             |
-| :------------------------------ | :------------------------------------------------------------------------- |
+| Original Part                   | Endorphin Part                                                                                                       |
+| :------------------------------ | :------------------------------------------------------------------------------------------------------------------- |
 | Back plate round standoff.stl   | [vz-back_plate.stl](https://raw.githubusercontent.com/endorphin3d/endorphin/main/STLs/stage-3/vz-back_plate.stl)     |
 | Bottom plate round standoff.stl | [vz-bottom_plate.stl](https://raw.githubusercontent.com/endorphin3d/endorphin/main/STLs/stage-3/vz-bottom_plate.stl) |
 | Front round standoff.stl        | [vz-front.stl](https://raw.githubusercontent.com/endorphin3d/endorphin/main/STLs/stage-3/vz-front.stl)               |
@@ -94,8 +94,8 @@ The EVA printhead is the standard Ratrig printhead. It has a large number of off
 
 The official EVA v3 design only required three parts to be modified in order to work on the Endorphin, so you can start by reading up on the official [CoreXY printhead](https://main.eva-3d.page/heat_insert/core/corexy) and downloading most of the parts from this page. Just substitute the following parts for the Endorphin versions in this table:
 
-| Original Part            | Endorphin Part                                                                                   |
-| :----------------------- | :----------------------------------------------------------------------------------------------- |
+| Original Part            | Endorphin Part                                                                                                                             |
+| :----------------------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
 | back_core_xy_fi.stl      | [eva-back_endorphin.stl](https://raw.githubusercontent.com/endorphin3d/endorphin/main/STLs/stage-3/eva-back_endorphin.stl)                 |
 | core_xy_belt_grabber.stl | [eva-endorphin_belt_grabber.stl](https://raw.githubusercontent.com/endorphin3d/endorphin/main/STLs/stage-3/eva-endorphin_belt_grabber.stl) |
 | top_endstop_mgn12c_fi    | [eva-eva-mgn9h.stl](https://raw.githubusercontent.com/endorphin3d/endorphin/main/STLs/stage-3/eva-mgn9h.stl)                               |
@@ -116,9 +116,20 @@ Credit for `eva-mgn9h.stl` goes to [@andbou_260448](https://www.printables.com/m
 {% capture evabelts %}
 {% endcapture %}
 {% include docs-step.html
-  heading="### Belt Assembly"
+  heading=""
   video="/assets/vids/docs/stages/stage-3/assembly-endorphin-belts.mp4"
   content=evabelts
+%}
+
+{% capture cableguide %}
+Let's clean up the cable pathway for your nice new printhead. This is a simple one to print and only needs one M3 T-nut to secure to the frame.
+
+Now just run your cables from the back of the board enclosure straight up and into your printhead!
+{% endcapture %}
+{% include docs-step.html
+  heading="## Cable Guide"
+  image="/assets/images/docs/stages/stage-3/cable-guide.png"
+  content=cableguide
 %}
 
 ---
