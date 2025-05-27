@@ -49,8 +49,8 @@ permalink: docs/stages/stage-1
 
 #### Pulleys
 
-| Part                | Size                        | Quantity | Link                                                                                  |
-| :------------------ | :-------------------------- | :------- | :------------------------------------------------------------------------------------ |
+| Part                | Size                        | Quantity | Link                                                                            |
+| :------------------ | :-------------------------- | :------- | :------------------------------------------------------------------------------ |
 | GT2 toothless idler | 3mm bore, 20-tooth diameter | 5        | [Amazon](https://www.amazon.com/BZ-3D-Aluminum-Printer-Toothless/dp/B08726CGYJ) |
 
 ---
@@ -110,24 +110,6 @@ Next you'll install the right Y belt tensioner and the X belt's front pulley. If
   content=x-stepper
 %}
 
-#### Swap Motors
-{: .d-inline-block }
-
-Optional
-{: .label .label-blue .my-0 }
-
-If you're using a direct drive extruder, you can make use of your old extruder stepper to drive the X belt. Because it's a stronger motor than the original X stepper, you'll be able to run the printer at higher speeds without skipping.
-
-In fact, even if you *are* running the original extruder, you can still swap the extruder and X motors without issue. As long as your hotend is able to keep up with the filament feed rate, the original X stepper should have enough torque to be used as the extruder motor.
-
-#### Tune Stepper Current
-{: .d-inline-block }
-
-Optional
-{: .label .label-blue .my-0 }
-
-If you find that your X stepper motor is getting hot during long prints, you can turn your stepper current down a bit. Just follow [this guide](https://all3dp.com/2/vref-calculator-tmc2209-tmc2208-a4988) which should only take a few minutes to complete.
-
 {% capture center-idlers %}
 These two center idlers are the reason we're using ones with a 3mm bore throughout the project rather than the more common 5mm bore. Because we're making use of two of the stepper mounting holes on the original X stepper plate to hold the axles for the idlers. These holes are only large enough to use M3 screws as axles, hence the 3mm bore pulleys.
 
@@ -142,6 +124,71 @@ These two center idlers are the reason we're using ones with a 3mm bore througho
   video="/assets/vids/docs/stages/stage-1/assembly-center-idlers.mp4"
   content=center-idlers
 %}
+
+### A Note On Washers
+
+These little M3 washers can be tricky to install, and you may be tempted to skip them altogether. A good rule of thumb is anywhere that gravity is at play on a pulley, you'll need a washer so it doesn't rub. In short: Washers are going to be *highly* recommended on the X axis pulleys, but not so critical on the Y tensioners.
+
+## Optional Steps
+
+### Swap Motors
+{: .d-inline-block }
+
+Highly Recommended
+{: .label .label-red .my-0 }
+
+In the original Ender 5, the X stepper only needed to be strong enough to move the printhead. Now it will be sharing the weight of the entire carriage with the Y stepper (which you'll notice is a bigger motor). This is why it's highly recommended to swap the extruder stepper and the X stepper. This will allow you to reach higher speeds without skipping.
+
+### Tune Stepper Current
+{: .d-inline-block }
+
+If you find that your X stepper motor is getting hot during long prints, you can turn your stepper current down a bit. Just follow [this guide](https://all3dp.com/2/vref-calculator-tmc2209-tmc2208-a4988) which should only take a few minutes to complete.
+
+### Stealthchop and Torque
+{: .d-inline-block }
+
+Klipper Only
+{: .label .label-blue .my-0 }
+
+Stealthchop is a feature in many modern boards which quiets the stepper motor at the expense of slight inaccuracies and reduced torque. For maximum speeds, you would want to **disable** Stealthchop. Unfortunately the "silent" boards that come in the Ender 5 require some soldering to disable Stealthchop (look up "Creality 4.2.2 and 4.2.7 UART mod").
+
+That said, if you have a more modern board, you can disable Stealthchop for maximum torque while increasing your micro-steps to achive a very similar level of quiet from your steppers. Here's what you would add to your printer.cfg (change "tmc2209" to your model's stepper driver):
+
+```yaml
+[stepper_x]
+...
+microsteps: 128
+rotation_distance: 40
+
+[tmc2209 stepper_x]
+...
+run_current: 0.620
+interpolate: False
+
+[stepper_y]
+...
+microsteps: 128
+rotation_distance: 40
+
+[tmc2209 stepper_y]
+...
+run_current: 0.650
+interpolate: False
+```
+
+## Troubleshooting
+
+### Height adjustments
+
+Once you've installed and tightened your hybrid X belt you might notice that it's not running perfectly parallel all the way along its path, or you might find that it's slightly too high or low and it's rubbing against the X rail after it passes through the center idlers. If this happens, there's a number of adjustments you can make, depending on what the issue is.
+
+1. Raise/lower the pulley on the X motor (many but not all Ender 5 models have an adjustable grub screw on the pulley)
+1. Raise the center idlers with another washer
+1. Raise the front corner idler with another washer
+
+### Quacking Noise
+
+Sometimes during printing, mainly on faster travel moves, you might hear a sound that's reminiscent of an oversized goose honking. While it may seem like a mechanical issue (something rubbing, needing oil, etc.) it actually goes away completely when disabling StealthChop (see the StealthChop section above).
 
 ---
 
