@@ -72,7 +72,7 @@ You should use **100% infill** for these parts and at least **4 perimeters/walls
 {% capture fca %}
 1. Remove screws from front-right Y tensioner plate and set them aside for step 3
 1. Remove the screw from the tensioner keeping the Y belt captured
-1. Attach the front corner piece, reusing the M5 bolt and one of the M3 T-nut screws from the original plate on one side and the other M3 T-nut on the other corner of the aluminum extrusion
+1. Attach the front corner piece, reusing the M5 bolt and one of the M4 T-nut screws from the original plate on one side and the other M4 T-nut on the other corner of the aluminum extrusion
 {% endcapture %}
 {% include docs-step.html
   heading="## Front Corner Assembly"
