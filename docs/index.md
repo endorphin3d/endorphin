@@ -48,7 +48,7 @@ Luckily this kinematic is supported by both Klipper and the stock Marlin firmwar
 
 ### What about the Ender 5 Plus?
 
-This hasn't been tested yet, but assuming you get longer rails and belts, this should work just fine without having to modify any of the printed parts. If anyone with an E5+ wants to test this and report their findings as a Github issue, it would be very welcome.
+Yes, as of version 1.1 the 5+ is also fully supported. Just make sure you don't leave slack in the X belt because that's a *long* belt path.
 
 ---
 
