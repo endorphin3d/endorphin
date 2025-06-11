@@ -40,6 +40,10 @@ permalink: docs/stages/stage-3
 
 ---
 
+## Printing
+
+**STL files for this stage are** [here](https://github.com/endorphin3d/endorphin/tree/main/STLs/stage-3)
+
 {% capture vz %}
 **Usable Print Area:** 220 x 200 (20mm reduction on Y axis)
 
